@@ -1,0 +1,435 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	position:relative;
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+.clearfix:after{
+	content:"";
+	height:0px;
+	display:block;
+	clear:both;
+}
+.top{
+	margin:0 auto;
+	width:1180px;
+}
+.top1{
+	background:white;
+	height:40px;
+	width:1180px;
+	margin:0 auto;
+}
+.top a{
+	color:#999;
+	font-size:11px;
+	float:left;
+	display:inline-block;
+}
+.top1>a{
+	margin-right:378px;
+	margin-top:10px;
+}
+.top3_right{
+	float:left;
+}
+.top3_right a{
+	margin-left:18px;
+	margin-top:6px;
+}
+.top3_qq_log{
+	width:19px;
+	height:19px;
+	background:url(img/common_min.png) 0 -31px;
+}
+.top3_weixin_log{
+	width:19px;
+	height:19px;
+	background:url(img/common_min.png) 0 -53px;
+}
+.top4{
+	height:86px;
+	width:1180px;
+	margin:0 auto;
+}
+.top4_mid{
+	float:left;
+	margin-left:78px;
+}
+.top4_left{
+	float:left;
+	display:inline-block;
+}
+#top4_mid_inp{
+	width:502px;
+	height:34px;
+	margin-top:14px;
+	font-size:12px;
+	border:3px solid rgb(254,108,0);
+	color:#757383;
+}
+#top4_sub{
+	position:relative;
+	left:-6px;
+	background-color:rgb(254,108,0);
+	border-color:rgb(254,108,0);
+	width:80px;
+	height:40px;
+	text-align:center;
+	color:white;
+	border-radius:1px;
+}
+.top4_mid_bot li{
+	margin-top:9px;
+	float:left;
+	padding:3px 9px;
+	height:12px;
+	background:url(img/shuxian.jpg) right center no-repeat;
+}
+#top4_red1{
+	color:red;
+}
+#top4_red2{
+	color:red;
+}
+#top4_bluei{
+	color:#c1d8ff;
+}
+#top4_bluei1{
+	color:#c1d8ff;
+}
+.top4_mid_bot #san{
+	background-image:none;
+}
+.top4_rig{
+	float:left;
+	margin-left:90px;
+}
+.top4_rig_smal{
+	float:left;
+	height:32px;
+	padding-top:6px;
+	border:1px solid #e6e5e2;
+	width:84px;
+	margin-top:14px;
+	border-radius:4px;
+}
+.top4_rig_smal>a{
+	text-align:center;
+}
+#top4_rig_rig{
+	background-color:#ff4d04;
+	padding:0px 6px;
+	width:72px;
+	height:38px;
+	line-height:38px;
+}
+#top4_rig_rig1{
+	color:white;
+}
+#black{
+	background: black;
+	width:100%;
+	height:40px;
+}
+.top5{
+	width:1180px;
+	margin:0 auto;
+}
+#black_red{
+	width: 96px;
+	height:40px;
+	background: #fe0d4a;
+}
+.top5 li{
+	float:left;
+	height:40px;
+	line-height: 40px;
+	text-align:center;
+	width:96px;
+	margin-right:20px;
+}
+.top5 li:hover{
+	background-color:#fe0d4a;
+}
+.top5 li a{
+	color:white;
+}
+.top6_All{
+	height:800px;
+	background: #f6f5f4;
+	width:100%;
+}
+.top6_center1{
+	width:1180px;
+	margin:0 auto;
+	position: relative;
+}
+.top6_center1>p{
+	height:35px;
+	line-height: 35px;
+	font-size:10px;
+}
+.top6_center2{
+	background: white;
+	height:610px;
+	width:928px;
+	position:relative;
+	padding-left:20px;
+	float:left;
+}
+#img1_1{
+	position:absolute;
+	left:12px;
+	top:20px;
+	border:1px solid #d0cdc7;
+	height:408px;
+	width:408px;
+}
+#slider{
+	width:150px;
+	height:150px;
+	position:absolute;
+	left:0;
+	top:0;
+	background:#ccc;
+	opacity:0.4;
+	cursor:move;
+	display:none;
+	filter:alpha(opacity=40);
+}
+#img_two{
+	position: absolute;
+	left:12px;
+	top:452px;
+}
+#img_right{
+	margin-left:240px;
+}
+#img1_2{
+	position:absolute;
+	left:408px;
+	top:20px;
+	display:none;
+	overflow:hidden;
+	border:1px solid #d0cdc7;
+	height:408px;
+	width:408px;
+}
+#img_big{
+	position:absolute;
+	left:0;
+	top:0;
+}
+#imgAll_right{
+	position:absolute;
+	left:440px;
+	top:20px;
+	height:447px;
+	width:470px;
+}
+#imgP1{
+	font-size:10px;
+}
+.imgPP2{
+	margin-top:14px;
+	font-size:5px;
+	margin-bottom:25px;
+	height:43px;
+}
+.right16{
+	padding-left:16px;
+}
+.right_pf12{
+	font-size:12px;
+	color: #52544e;
+}
+#red{
+	color: red;
+	margin-left:56px;
+	margin-right:13px;
+}
+#red_rear{
+	text-decoration:line-through;
+}
+#duigou{
+	width:510px;
+	margin-bottom:20px;
+}
+#duigou0{
+	margin-right:29px;
+}
+
+#duigou1{
+	margin-right:25px;
+}
+.shuliang1{
+	margin-right:62px;
+	display:block;
+	float:left;
+}
+#dec{
+	border:1px solid gray;
+	width:25px;
+	text-align: center;
+	height:25px;
+	line-height:25px;
+	cursor: pointer;
+	display:block;
+	float:left;
+}
+#add{
+	border:1px solid gray;
+	width:25px;
+	height:25px;
+	line-height:25px;
+	text-align: center;
+	position: relative;
+	left:-4px;
+	cursor: pointer;
+	display:block;
+	float:left;
+}
+#shu{
+	border:1px solid gray;
+	height:25px;
+	width:50px;
+	text-align: center;
+	position: relative;
+	left:-2px;
+	display:block;
+	float:left;
+}
+#xuanze{
+	position:relative;
+	left:127px;
+	margin-bottom:20px;
+}
+#gou{
+	position: relative;
+	left:24px;
+}
+.bt11{
+	width:150px;
+	height:40px;
+	line-height: 40px;
+	text-align: center;
+	color:#ff0754;
+	background-color: white;
+	border:1px solid #ff0754;
+	margin-right:22px;
+	border-radius: 5px;
+}
+.bt22{
+	width:150px;
+	height:40px;
+	line-height: 40px;
+	text-align: center;
+	border:1px solid #ff0754;
+	color:white;
+	background-color: #ff0754;
+	border-radius: 5px;
+}
+#bt111{
+	cursor: pointer;
+}
+#bt222{
+	cursor:pointer;
+}
+#x{
+	position:absolute;
+	top:14px;
+	right:12px;
+	cursor: pointer;
+
+}
+#yijiag{
+	border:2px solid #aca9d3;
+	width:400px;
+	height:190px;
+	padding-top:50px;
+	margin:0 auto;
+	text-align: center;
+	display:none;
+	position:absolute;
+	left:468px;
+	top:420px;
+	background: #fff;
+}
+#a_07{
+	width:1180px;
+	text-align:center;
+	margin:0 auto;
+}
+#bottom1{
+	margin:0 auto;
+	width:1240px;
+	text-align:center;
+	border-bottom:1px solid #f8f7f6;
+	height:175px;
+}
+#bottom1_img1{
+	margin-right:75px;
+}
+#bottom1 div{
+	float:left;
+}
+.bottom_ul{
+	float:left;
+	margin-left:70px;
+	margin-top:60px;
+
+}
+.bot_li_fis{
+	font-size:15px;
+}
+.bot_li_ne >a{
+	font-size:12px;
+	color:gray;
+}
+#bottom1_img2{
+	margin-top:30px;
+	margin-left:80px;
+}
+#bottom2{
+	width:100%;
+	text-align:center;
+	margin:0 auto;
+}
+.bottom2_1 li{
+	float:left;
+	background:url(img/shuxian.jpg) right center no-repeat;
+	padding:0px 12px;
+
+}
+.bottom2_1 li>a{
+	color:gray;
+	font-size:9px;
+}
+.bottom2_1{
+	width:1180px;
+	height:18px;
+	line-height:18px;
+	margin:0 auto;
+	text-align:center;
+	border-top:1px solid #f8f7f6;
+	position:relative;
+}
+#bot_li_end{
+	background-image:none;
+}
+#bottom_bottom>p{
+	text-align: center;
+	font-size:9px;
+	color:gray;
+}
+#bottom_img{
+	text-align: center;
+}
